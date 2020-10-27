@@ -14,7 +14,7 @@ import L_DJANGO from "../../../assets/img/skills/django.svg";
 import L_MONGODB from "../../../assets/img/skills/mongodb.svg";
 import L_MSSQL from "../../../assets/img/skills/mssql.svg";
 import L_HEROKU from "../../../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../../assets/img/skills/digital-ocean.svg";
+// import L_FIREBASE_AUTH from "../../../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../../assets/img/skills/javascript.svg";
 import L_PYTHON from "../../../assets/img/skills/python.svg";
@@ -118,12 +118,12 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
+    // {
+    //   link: "https://www.digitalocean.com/",
+    //   imgAltText: "Digital Ocean",
+    //   imgSrc: L_DIGITAL_OCEAN,
+    //   skillName: "Digital Ocean",
+    // },
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
