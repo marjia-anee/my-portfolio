@@ -367,7 +367,7 @@ const ProjectsTimeline = () => {
 
           {/* Project: 4 */}
           <ImageEvent
-            date="21/01/2020"
+            date="21/09/2020"
             className="text-center"
             text="Ema-John Website"
             src={project4}
@@ -481,7 +481,7 @@ const ProjectsTimeline = () => {
           {/* Project: projects 5 */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="04/10/2020"
             className="text-center"
             text="Travel Guru"
             src={project5}
@@ -592,7 +592,7 @@ const ProjectsTimeline = () => {
           {/* Project: 6*/}
 
           <ImageEvent
-            date="15/12/2019"
+            date="15/10/2020"
             className="text-center"
             text="Volunteer Network"
             src={project6}

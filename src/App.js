@@ -15,6 +15,7 @@ import Contact from './pages/AboutMe/Contact/Contact';
 import { particlesOptions } from "./particlesOptions";
 import Particles from 'react-particles-js';
 import Footer from './components/Footer/Footer';
+import Blogs from './pages/AboutMe/Blogs/Blogs';
 
 
 function App() {
@@ -59,6 +60,13 @@ function App() {
         <Slide bottom duration={500}>
           <hr />
           <ProjectsTimeline />
+        </Slide>
+      </Container>
+
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Blogs />
         </Slide>
       </Container>
 

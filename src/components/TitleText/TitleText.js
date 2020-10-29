@@ -1,3 +1,4 @@
+import { Button } from 'react-bootstrap';
 import React from 'react';
 // import Typewriter from 'typewriter-effect/dist/core';
 import styled from "styled-components";
@@ -30,8 +31,8 @@ const MyTitleMessage = styled.h1`
   }`
 ;
 
-const TitleText = () => {
-    return (
+const TitleText = () => (
+ 
     <MyTitleMessage>
         <div className="titleMessage">
         <div className="heading">
@@ -45,17 +46,27 @@ const TitleText = () => {
             <div className="sub">
             <Typewriter
                 options={{
-                strings: ["Web Developer", "Learner"],
+                strings: ["Web Developer", "Programmer","Learner"],
                 autoStart: true,
                 loop: true,
                 delay: 50
                 }}
             />
             </div>
+              <div>
+                <a href="#contact">
+                  <Button className="m-2" variant="outline-primary">
+                    Let's talk
+                  </Button>
+                </a>
+              </div>
+            
         </div>
         </div>
   </MyTitleMessage>
+
+
+
     );
-};
 
 export default TitleText;
