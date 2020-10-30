@@ -103,12 +103,12 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
+    // {
+    //   link: "https://www.djangoproject.com/",
+    //   imgAltText: "Django",
+    //   imgSrc: L_DJANGO,
+    //   skillName: "Django",
+    // },
     
   ],
   hostingPlatforms: [
@@ -139,22 +139,22 @@ export const skills = {
       skillName: "JavaScript",
     },
    
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
+    // {
+    //   link: "https://www.python.org/",
+    //   imgAltText: "Python",
+    //   imgSrc: L_PYTHON,
+    //   skillName: "Python",
+    // },
    
   ],
   databases: [
    
-    {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
+    // {
+    //   link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+    //   imgAltText: "MS-SQL",
+    //   imgSrc: L_MSSQL,
+    //   skillName: "MS-SQL",
+    // },
     {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",

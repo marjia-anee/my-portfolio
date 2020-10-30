@@ -20,6 +20,7 @@ emailjs.sendForm('gmail', 'template_rk27c8v', e.target, 'user_60DE0kYLxZkMSATYmq
 
     return (
         <div id="contact">
+
         <h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
         <form onSubmit={sendEmail} className = " p-3 mx-auto contact-form">
                     <div className="row pt-5 mx-auto">
@@ -83,6 +84,7 @@ emailjs.sendForm('gmail', 'template_rk27c8v', e.target, 'user_60DE0kYLxZkMSATYmq
             </Col>
           </Row>
         </Jumbotron>
+        
       </div>
     );
 };

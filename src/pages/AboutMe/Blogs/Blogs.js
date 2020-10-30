@@ -4,7 +4,7 @@ import './Blogs.css';
 
 const Blogs = () => {
       return (
-            <div id="blog">
+            <div id="blogs">
                   <h1 className="pt-3 text-center font-details-b pb-3">BLOGS</h1>
           <Container>
 

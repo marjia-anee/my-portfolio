@@ -1,4 +1,3 @@
-import { Button } from 'react-bootstrap';
 import React from 'react';
 // import Typewriter from 'typewriter-effect/dist/core';
 import styled from "styled-components";
@@ -53,13 +52,13 @@ const TitleText = () => (
                 }}
             />
             </div>
-              <div>
-                <a href="#contact">
+              {/* <div>
+                <a href="#contacts">
                   <Button className="m-2" variant="outline-primary">
                     Let's talk
                   </Button>
                 </a>
-              </div>
+              </div> */}
             
         </div>
         </div>
