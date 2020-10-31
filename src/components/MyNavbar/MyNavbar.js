@@ -6,7 +6,7 @@ const MyNavbar = () => {
     return (
         <Navbar fixed = "top" collapseOnSelect expand="lg" className="animate-navbar nav-theme justify-content-between"
         variant="dark">
-            <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+            <Navbar.Brand href="#home">PORTFOLIO</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
