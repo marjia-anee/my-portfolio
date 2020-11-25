@@ -37,7 +37,7 @@ emailjs.sendForm('gmail', 'template_rk27c8v', e.target, 'user_60DE0kYLxZkMSATYmq
                             <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-primary" value="Send Message"></input>
+                            <input type="submit" className="btn btn-info" value="Send Message"></input>
                         </div>
                     </div>
                 </form>

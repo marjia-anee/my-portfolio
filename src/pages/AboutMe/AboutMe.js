@@ -29,7 +29,7 @@ const AboutMe = () => {
                   <Col className="d-flex justify-content-center flex-wrap">
                     <div>
                       <a href="#contact">
-                        <Button className="m-2" variant="outline-primary">
+                        <Button className="about-button" variant="outline-info">
                           Let's talk
                         </Button>
                       </a>
