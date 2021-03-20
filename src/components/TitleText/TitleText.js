@@ -52,13 +52,6 @@ const TitleText = () => (
                 }}
             />
             </div>
-              {/* <div>
-                <a href="#contacts">
-                  <Button className="m-2" variant="outline-primary">
-                    Let's talk
-                  </Button>
-                </a>
-              </div> */}
             
         </div>
         </div>

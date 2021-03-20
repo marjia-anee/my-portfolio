@@ -7,11 +7,11 @@ import './ProjectsTimeline.css';
 
 //project 
 
-import project1 from "../../assets/img/projects/Creative Agency MERN website.webp";
-import project2 from "../../assets/img/projects/Doctors Portal.webp";
-import project3 from "../../assets/img/projects/Reb Onion Restaurent app.webp";
-import project4 from "../../assets/img/projects/E-Commerce website.webp";
-import project5 from "../../assets/img/projects/Travel Booking website.webp";
+import project1 from "../../assets/img/projects/marin.webp";
+import project2 from "../../assets/img/projects/red.webp";
+import project3 from "../../assets/img/projects/amazon.webp";
+import project4 from "../../assets/img/projects/cnc.webp";
+import project5 from "../../assets/img/projects/Doctors Portal.webp";
 import project6 from "../../assets/img/projects/Volunteer Network.webp";
 
 //skills
@@ -33,11 +33,11 @@ const ProjectsTimeline = () => {
         <Events>
         {/* Project: 1*/}
         <ImageEvent
-            date="01/10/2020"
+            date="10/03/2021"
             className="text-center"
-            text="Creative Agency IT Solution"
+            text="Marin Software-An IT Solution"
             src={project1}
-            alt="Creative Agency IT Solution"
+            alt="Marin Software-An IT Solution"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -136,7 +136,122 @@ const ProjectsTimeline = () => {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/marjia-anee/creative-agency"
+                  href="https://github.com/marjia-anee/marin-software"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
+{/* project 2 */}
+          <ImageEvent
+            date="15/03/2021"
+            className="text-center"
+            text="Red Wheels-For the Ultimate Automobile Search"
+            src={project2}
+            alt="Red Wheels-For the Ultimate Automobile Search"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordion-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a full-stack MERN Automobile searching web app where anyone can choose their desired latest featured cars.
+
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Registered users can add a new car, see the details, edit and delete the car info.</li>
+                          <li>Responsive Design</li>
+                          <li>All the cars are listed in MongoDB and shows in the UI</li>
+                          <li>The searching result is loaded from state management, not loading from the DB/server</li>
+
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Bootstrap
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://red-wheels.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/marjia-anee/red-wheels"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -147,12 +262,247 @@ const ProjectsTimeline = () => {
           </ImageEvent>
 
 
-{/* Project: 2  */}
-<ImageEvent
+
+
+          {/* Project: 3 */}
+          <ImageEvent
+            date="25/02/2021"
+            className="text-center"
+            text="Amazon-clone E-commerce website"
+            src={project3}
+            alt="Amazon-clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordion-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>A full-stack e-commerce web app where anyone can order their desired products from the app. They have options for lots of items.
+
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                        <li>Registered user can choose products from numerous products collection</li>
+                        <li>Single product display with full requirements</li>
+                        <li>Dynamic shopping cart and checkout procedure</li>
+                          <li>Online payment system</li>
+
+
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Bootstrap
+                            </span>
+                          </li>
+                        </ul>
+                        <hr />
+                        
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://clone-933c4.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/marjia-anee/amazon-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: 4 */}
+          <ImageEvent
+            date="10/02/2021"
+            className="text-center"
+            text="Air-CNC Hotel Booking App"
+            src={project4}
+            alt="Air-CNC Hotel Booking App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordion-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>A full-stack restaurant web app where anyone can order their favorite food from the menu and have options for breakfast, lunch, and dinner. Online paying system using their credit card and enjoy the most delicious food.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Showing details of single food item</li>
+                          <li>Fully functional system</li>
+
+                          <li>Online payment system</li>
+
+
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Bootstrap
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://blissful-lewin-9ae8f9.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/marjia-anee/air-cnc"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+               
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: 5 */}
+        <ImageEvent
             date="15/09/2020"
             className="text-center"
             text="Doctors Portal"
-            src={project2}
+            src={project5}
             alt="Doctors Portal"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -245,6 +595,13 @@ const ProjectsTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
+
+              <UrlButton
+                  href="https://doctors-portal-r.firebaseapp.com/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
                 <UrlButton
                   href="https://github.com/marjia-anee/doctors-portal-full"
                   target="_blank"
@@ -256,330 +613,9 @@ const ProjectsTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: 3 */}
-          <ImageEvent
-            date="10/09/2020"
-            className="text-center"
-            text="Red Onion Restaurant App"
-            src={project3}
-            alt="Red Onion Restaurant App"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordion-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong>A full-stack restaurant web app where anyone can order their favorite food from the menu and have options for breakfast, lunch, and dinner. Online paying system using their credit card and enjoy the most delicious food.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Showing details of single food item</li>
-                          <li>Fully functional system</li>
-
-                          <li>Online payment system</li>
 
 
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MONGODB}
-                                alt="MongoDB"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              MongoDB
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Bootstrap
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                
-                <UrlButton
-                  href="https://github.com/marjia-anee/red-onion"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-               
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: 4 */}
-          <ImageEvent
-            date="20/09/2020"
-            className="text-center"
-            text="Ema-John Website"
-            src={project4}
-            alt="Ema-John Website"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordion-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong>A full-stack e-commerce web app where anyone can order their favorite product from the shop. They have options for lots of items. Pay online using their credit card and get the product.
-
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                        <li>Registered user can choose products from numerous products collection</li>
-                        <li>Single product display with full requirements</li>
-                        <li>Dynamic shopping cart and checkout procedure</li>
-                          <li>Online payment system</li>
-
-
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MONGODB}
-                                alt="MongoDB"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              MongoDB
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Bootstrap
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                        
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                
-                <UrlButton
-                  href="https://github.com/marjia-anee/ema-john-simple"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: projects 5 */}
-
-          <ImageEvent
-            date="05/10/2020"
-            className="text-center"
-            text="Travel Guru"
-            src={project5}
-            alt="Travel Guru"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordion-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> Travel Guru is a travel app where anyone can choose their desired destination for their trip and also have booking system.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                        <li>Showing destination details for new user  </li>
-                          <li>Available hotel booking for registered user</li>
-                          <li>Google map integrated</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://travel-guru-cbc50.web.app/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/marjia-anee/travel-guru"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
+                             
 
           {/* Project: 6*/}
 

@@ -12,7 +12,7 @@ const AboutMe = () => {
               <Col xs={12} md={3}>
                 <Row className="justify-content-center mb-2 mr-2 ">
                   {/* <Image className="profile justify-content-end" alt="" src={myImage}  /> */}
-                  <a class="btn btn-danger btn-lg m-1" href="https://drive.google.com/uc?export=download&amp;id=1QHfgY_p8e7_NPitjyjS_RtXUw8d7ZJIq" role="button" target="_blank">Download Resume</a>
+                  <a class="btn btn-danger btn-lg m-1" href="https://drive.google.com/uc?export=download&amp;id=1YLRnPcR2NmvhRbfrO5uTPyQGWr78pICS" role="button" target="blank">Download Resume</a>
                 </Row>
               </Col>
               <Col xs={12} md={9}>
